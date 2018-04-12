@@ -53,9 +53,9 @@ if __name__ == '__main__':
 
     # Tweak the training strategy
     model.train_model(dataset_train, dataset_val,
-        learning_rate=0.001,
-        epochs=4,
-        layers='heads')
+        learning_rate=0.00005,
+        epochs=88,
+        layers='all')
 '''
     model.train_model(dataset_train, dataset_val,
         learning_rate=0.0001,
