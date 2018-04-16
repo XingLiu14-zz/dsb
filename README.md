@@ -12,7 +12,7 @@ This is a solution of 2018 Data Science Bowl rely on a forked version of multimo
 
 1. Clone this repo.
 ```
-git clone https://github.com/louis-she/dsb.git --recursive
+git clone https://github.com/XingLiu14/dsb.git --recursive
 ```
 
 2. Download data by kaggle command.
