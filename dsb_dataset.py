@@ -23,6 +23,7 @@ class DsbDataset(utils.Dataset):
         """
         info = self.image_info[image_id]
         path = info['path']
+        #print(path)
         image_name = os.listdir(os.path.join(path, 'images'))
         image_path = os.path.join(path, 'images', image_name[0])
         image = imageio.imread(image_path)
